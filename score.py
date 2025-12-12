@@ -1,7 +1,9 @@
 from turtle import Turtle
 ALIGNMENT = "center"
 FONT = ("Courier", 24, "normal")
-
+f=open("data.txt","w+")
+h_score=f.read()
+print(h_score)
 class Score(Turtle):
 
     def __init__(self):
